@@ -1,0 +1,6 @@
+obj/string_collection.o: src/string_collection.cpp \
+ src/mqtt/string_collection.h src/mqtt/types.h
+
+src/mqtt/string_collection.h:
+
+src/mqtt/types.h:

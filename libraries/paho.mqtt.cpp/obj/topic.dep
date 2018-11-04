@@ -1,0 +1,48 @@
+obj/topic.o: src/topic.cpp src/mqtt/topic.h src/mqtt/delivery_token.h \
+ src/mqtt/token.h src/mqtt/iaction_listener.h src/mqtt/types.h \
+ src/mqtt/exception.h src/mqtt/buffer_ref.h src/mqtt/string_collection.h \
+ src/mqtt/message.h src/mqtt/async_client.h \
+ src/mqtt/iclient_persistence.h src/mqtt/buffer_view.h \
+ src/mqtt/callback.h src/mqtt/thread_queue.h src/mqtt/iasync_client.h \
+ src/mqtt/connect_options.h src/mqtt/topic.h src/mqtt/will_options.h \
+ src/mqtt/ssl_options.h src/mqtt/disconnect_options.h
+
+src/mqtt/topic.h:
+
+src/mqtt/delivery_token.h:
+
+src/mqtt/token.h:
+
+src/mqtt/iaction_listener.h:
+
+src/mqtt/types.h:
+
+src/mqtt/exception.h:
+
+src/mqtt/buffer_ref.h:
+
+src/mqtt/string_collection.h:
+
+src/mqtt/message.h:
+
+src/mqtt/async_client.h:
+
+src/mqtt/iclient_persistence.h:
+
+src/mqtt/buffer_view.h:
+
+src/mqtt/callback.h:
+
+src/mqtt/thread_queue.h:
+
+src/mqtt/iasync_client.h:
+
+src/mqtt/connect_options.h:
+
+src/mqtt/topic.h:
+
+src/mqtt/will_options.h:
+
+src/mqtt/ssl_options.h:
+
+src/mqtt/disconnect_options.h:
