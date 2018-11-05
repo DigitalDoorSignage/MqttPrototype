@@ -1,7 +1,0 @@
-cmake_minimum_required(VERSION 3.12)
-project(MqttPrototype)
-set(CMAKE_CXX_STANDARD 11)
-file(GLOB SOURCE_FILES src/*.cpp)
-include_directories(./vendor/paho.mqtt.cpp/include)
-add_executable(${PROJECT_NAME} ${SOURCE_FILES} )
-link_libraries(./vendor/paho.mqtt.cpp/lib/libpaho-mqttpp3.a)
