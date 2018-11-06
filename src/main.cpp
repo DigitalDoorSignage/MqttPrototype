@@ -80,6 +80,7 @@ class callback : public virtual mqtt::callback,
 			<< "\nPress Q<Enter> to quit\n" << std::endl;
 
 		cli_.subscribe(TOPIC, QOS, nullptr, subListener_);
+		cli_.subscribe("test/1", QOS, nullptr, subListener_);
 	}
 
 	// Callback for when the connection is lost.
